@@ -2,6 +2,10 @@ public class Roman2int {
 
     private static int decodeSingle(char letter) {
         switch (letter) {
+            case 'C':
+                return 100;
+            case 'L':
+                return 50;
             case 'X':
                 return 10;
             case 'V':
